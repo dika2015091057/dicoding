@@ -18,7 +18,7 @@ map_day = {
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # read data
-data = pd.read_csv('/dashboard/main_data.csv')
+data = pd.read_csv('https://github.com/dika2015091057/dicoding/blob/main/dashboard/main_data.csv')
 
 # dashboard title
 st.title("The most popular day for group of users")
